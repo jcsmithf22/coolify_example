@@ -1,2 +1,2 @@
-[phase.build]
+[phases.build]
 cmds = ["echo build started", "npm run build", "php artisan migrate --force", "php artisan optimize", "echo build ended"]
